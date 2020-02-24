@@ -1,7 +1,7 @@
 defmodule Cappuccino.BrewProject do
   def template do
     [
-      template: "cappuccino",
+      template: :cappuccino,
       version: "0.1.0"
     ]
   end
