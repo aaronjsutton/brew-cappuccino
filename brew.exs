@@ -1,5 +1,5 @@
 defmodule Cappuccino.BrewProject do
-  def template do
+  def project do
     [
       template: :cappuccino,
       version: "0.1.0"
@@ -12,7 +12,7 @@ defmodule Cappuccino.BrewProject do
         :about,
         :reflection,
         :service,
-      ]
+      ],
       career: [
         :exploration,
         :activities,
